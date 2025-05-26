@@ -122,7 +122,7 @@ export const Contact = ({ path }) => {
         <a
           target="_blank"
           className="underline"
-          href="../../../public/Ravi_Shankar_Resume.pdf"
+          href="assets/Ravi_Shankar_Resume.pdf"
         >
           click Here to download resume...
         </a>
