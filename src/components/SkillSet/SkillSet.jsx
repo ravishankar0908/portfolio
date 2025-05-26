@@ -62,7 +62,7 @@ export const SkillSet = ({ path }) => {
       <div className="none text-xl" id="my-skills">
         <h1>My skills are: </h1>
         <div className="overflow-x-auto">
-          <table className="border-collapse border border-gray-100">
+          <table className="border-collapse border border-gray-100 w-50">
             <tbody>
               <tr>
                 <th>Languages</th>
