@@ -7,6 +7,7 @@ export const AppRouter = ({ path }) => {
   return (
     <div>
       <Routes>
+        <Route path="*" element={<Home />} />
         <Route path="/" element={<Home path={path} />} />
         <Route path="/contact" element={<Contact path={path} />} />
         <Route path="/skillset" element={<SkillSet path={path} />} />
