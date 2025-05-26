@@ -61,39 +61,43 @@ export const SkillSet = ({ path }) => {
       </h1>
       <div className="none text-xl" id="my-skills">
         <h1>My skills are: </h1>
-        <table className="table-auto w-50">
-          <tr>
-            <th>Languages</th>
-            <td>Java</td>
-            <td>C</td>
-            <td>Python</td>
-            <td>JavaScript</td>
-            <td>HTML/CSS</td>
-            <td>PHP</td>
-            <td>SQL</td>
-            <td>MongoDB</td>
-          </tr>
-          <tr>
-            <th>Frameworks/Technologies</th>
-            <td>Angular</td>
-            <td>Node.js</td>
-            <td>Express.js</td>
-            <td>React</td>
-            <td>Bootstrap</td>
-            <td>TailWind</td>
-            <td>MEAN</td>
-            <td>MERN</td>
-          </tr>
-          <tr>
-            <th>Tools / Software</th>
-            <td>Git</td>
-            <td>GitHub</td>
-            <td>VS Code</td>
-            <td>Eclipse</td>
-            <td colSpan={2}>Xampp</td>
-            <td colSpan={2}>Postman</td>
-          </tr>
-        </table>
+        <div className="overflow-x-auto">
+          <table className="border-collapse border border-gray-100">
+            <tbody>
+              <tr>
+                <th>Languages</th>
+                <td>Java</td>
+                <td>C</td>
+                <td>Python</td>
+                <td>JavaScript</td>
+                <td>HTML/CSS</td>
+                <td>PHP</td>
+                <td>SQL</td>
+                <td>MongoDB</td>
+              </tr>
+              <tr>
+                <th>Frameworks/Technologies</th>
+                <td>Angular</td>
+                <td>Node.js</td>
+                <td>Express.js</td>
+                <td>React</td>
+                <td>Bootstrap</td>
+                <td>TailWind</td>
+                <td>MEAN</td>
+                <td>MERN</td>
+              </tr>
+              <tr>
+                <th>Tools / Software</th>
+                <td>Git</td>
+                <td>GitHub</td>
+                <td>VS Code</td>
+                <td>Eclipse</td>
+                <td colSpan={2}>Xampp</td>
+                <td colSpan={2}>Postman</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <div className="flex flex-wrap gap-10 logos none" id="logo">

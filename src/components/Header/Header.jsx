@@ -26,13 +26,13 @@ function Header() {
 
   return (
     <header className="flex">
-      <div className="bg-neutral-700 text-white w-[100%] h-12 flex justify-between items-end">
+      <div className="bg-neutral-700 text-white w-screen h-12 flex justify-between items-end">
         <div className="flex">
           {tabs.map((tab) => (
             <Link to={tab.path} key={tab.name}>
               <div
                 onClick={() => setactiveTab(tab.name)}
-                className={`flex flex-wrap items-center justify-between margin rounded-t-lg h-9 w-[170px]  ${
+                className={`flex items-center justify-between margin rounded-t-lg h-9 text-xs w-35 sm:w-full shrink  ${
                   activeTab === tab.name ? "bg-black" : "hover:bg-neutral-800"
                 }`}
               >
@@ -41,7 +41,7 @@ function Header() {
                   {tab.name}
                 </span>
                 <span
-                  className={`flex items-center ${
+                  className={`flex items-center  ${
                     activeTab === tab.name
                       ? "hover:bg-zinc-900"
                       : "hover:bg-zinc-700"
@@ -54,14 +54,14 @@ function Header() {
           ))}
         </div>
 
-        <div className="flex items-center float-right">
-          <span className="hover:bg-neutral-600 flex w-15 h-12 justify-center items-center">
+        <div className="sm:flex hidden items-center float-right gap-3 md:gap-0">
+          <span className="hover:bg-neutral-600 flex md:w-15 w-5 h-12 justify-center items-center">
             <Minus size={16} />
           </span>
-          <span className="hover:bg-neutral-600 w-15 h-12 flex justify-center items-center">
+          <span className="hover:bg-neutral-600 md:w-15 w-5 h-12 flex justify-center items-center">
             <Square size={16} />
           </span>
-          <span className="hover:bg-red-600 w-15 h-12 flex justify-center items-center">
+          <span className="hover:bg-red-600 md:w-15 w-5 h-12 flex justify-center items-center">
             <X size={16} />
           </span>
         </div>

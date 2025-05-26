@@ -7,7 +7,7 @@ function App() {
   return (
     // <BrowserRouter>
     <HashRouter>
-      <div className="bg-black min-h-screen">
+      <div className="bg-black min-h-screen overflow-x-flow min-w-full mobile">
         <Header />
 
         <AppRouter path={"C:\\Users\\RaviShankar\\portfolio>"} />
