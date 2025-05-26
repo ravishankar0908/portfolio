@@ -119,11 +119,7 @@ export const Contact = ({ path }) => {
       </h1>
 
       <div className="resume none" id="download-resume">
-        <a
-          target="_blank"
-          className="underline"
-          href="assets/Ravi_Shankar_Resume.pdf"
-        >
+        <a target="_blank" className="underline" href="Ravi_Shankar_Resume.pdf">
           click Here to download resume...
         </a>
       </div>
