@@ -32,7 +32,7 @@ function Header() {
             <Link to={tab.path} key={tab.name}>
               <div
                 onClick={() => setactiveTab(tab.name)}
-                className={`flex items-center justify-between margin rounded-t-lg h-9 text-xs w-35 sm:w-full shrink  ${
+                className={`flex items-center justify-between margin rounded-t-lg h-9 text-xs w-35 sm:w-full sm:text-xl shrink  ${
                   activeTab === tab.name ? "bg-black" : "hover:bg-neutral-800"
                 }`}
               >
