@@ -55,7 +55,7 @@ export const SkillSet = ({ path }) => {
       .go();
   }, []);
   return (
-    <div className="content">
+    <div className="content h-[calc(100vh-40px)] overflow-y-auto">
       <h1 className="text-xl">
         {path} <span id="display-skill"></span>
       </h1>

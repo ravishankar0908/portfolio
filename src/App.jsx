@@ -6,9 +6,9 @@ import { HashRouter } from "react-router-dom";
 function App() {
   return (
     <HashRouter>
-      <div className="bg-black min-h-screen w-screen">
+      <div className="bg-black">
         <Header />
-        <AppRouter  />
+        <AppRouter />
       </div>
     </HashRouter>
   );

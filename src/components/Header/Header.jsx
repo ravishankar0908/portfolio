@@ -26,7 +26,7 @@ function Header() {
   }, [location.pathname]);
 
   return (
-    <header className="flex ">
+    <header className="flex sticky top-0">
       <div className="bg-neutral-700 text-white sm:w-screen h-12 flex justify-between items-end overflow-x-auto scrollbar-hide">
         <div className="flex ">
           {tabs.map((tab) => (

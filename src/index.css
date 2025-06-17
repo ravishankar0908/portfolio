@@ -56,3 +56,6 @@ td {
 .social-media {
   margin-top: 15px;
 }
+.scrollbar {
+  overflow-y: hidden;
+}

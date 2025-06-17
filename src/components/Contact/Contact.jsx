@@ -57,7 +57,7 @@ export const Contact = ({ path }) => {
   }, []);
 
   return (
-    <div className="content text-xl">
+    <div className="content text-xl h-[calc(100vh-40px)] overflow-y-auto">
       <h1 className="text-xl">
         {path}
         <span id="display-contact"></span>

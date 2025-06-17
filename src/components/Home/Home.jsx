@@ -70,7 +70,7 @@ export const Home = ({ path }) => {
   }, []);
 
   return (
-    <div className="content">
+    <div className="content text-xl h-[calc(100vh-40px)] overflow-y-auto">
       <h1 className="text-xl">
         {" "}
         {path} <span id="show-name"></span>{" "}
