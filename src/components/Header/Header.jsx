@@ -15,8 +15,9 @@ function Header() {
 
   const tabs = [
     { name: "Home", path: "/" },
-    { name: "Skills set", path: "/skillset" },
-    { name: "Contact me", path: "/contact" },
+    { name: "Skills", path: "/skillset" },
+    { name: "Contact", path: "/contact" },
+    { name: "Projects", path: "/projects" },
   ];
 
   useEffect(() => {
@@ -25,18 +26,18 @@ function Header() {
   }, [location.pathname]);
 
   return (
-    <header className="flex">
-      <div className="bg-neutral-700 text-white w-screen h-12 flex justify-between items-end">
-        <div className="flex">
+    <header className="flex ">
+      <div className="bg-neutral-700 text-white sm:w-screen h-12 flex justify-between items-end overflow-x-auto scrollbar-hide">
+        <div className="flex ">
           {tabs.map((tab) => (
             <Link to={tab.path} key={tab.name}>
               <div
                 onClick={() => setactiveTab(tab.name)}
-                className={`flex items-center justify-between margin rounded-t-lg h-9 text-xs w-35 sm:w-full sm:text-xl shrink  ${
+                className={`flex items-center justify-between margin rounded-t-lg h-9 text-xs  sm:w-full sm:text-xl shrink  ${
                   activeTab === tab.name ? "bg-black" : "hover:bg-neutral-800"
                 }`}
               >
-                <span className="flex items-center gap-2">
+                <span className="flex text-sm items-center gap-2 truncate">
                   <TerminalWindow size={16} />
                   {tab.name}
                 </span>

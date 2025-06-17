@@ -36,3 +36,45 @@ export const details = {
   point3: `Managed and optimized MongoDB databases, ensuring efficient data
             operations and consistency.`,
 };
+
+export const projects = [
+  {
+    name: "asd-1",
+    duration: "asdasdasdasd",
+    description: "asdasdasdadasd",
+    technology: "asdasdasd",
+    problemStatment: "asdasdasd",
+    solution: "asdasdasd",
+    approach: "asdasdasd",
+  },
+
+  {
+    name: "asd-2",
+    duration: "asdasdasdasd",
+    description: "asdasdasdadasd",
+    technology: "asdasdasd",
+    problemStatment: "asdasdasd",
+    solution: "asdasdasd",
+    approach: "asdasdasd",
+  },
+
+  {
+    name: "asd-3",
+    duration: "asdasdasdasd",
+    description: "asdasdasdadasd",
+    technology: "asdasdasd",
+    problemStatment: "asdasdasd",
+    solution: "asdasdasd",
+    approach: "asdasdasd",
+  },
+
+  {
+    name: "asd-4",
+    duration: "asdasdasdasd",
+    description: "asdasdasdadasd",
+    technology: "asdasdasd",
+    problemStatment: "asdasdasd",
+    solution: "asdasdasd",
+    approach: "asdasdasd",
+  },
+];

@@ -58,12 +58,12 @@ export const Contact = ({ path }) => {
 
   return (
     <div className="content text-xl">
-      <h1 className="">
+      <h1 className="text-xl">
         {path}
         <span id="display-contact"></span>
       </h1>
 
-      <div className="flex flex-col gap-3 none" id="contact-details">
+      <div className="flex flex-col gap-3  none" id="contact-details">
         <div>
           <span className="text-bold">Email: </span>
           <span className="underline">
@@ -119,7 +119,11 @@ export const Contact = ({ path }) => {
       </h1>
 
       <div className="resume none" id="download-resume">
-        <a target="_blank" className="underline" href="Ravi_Shankar_Resume.pdf">
+        <a
+          target="_blank"
+          className="underline"
+          href="/portfolio/Ravi_Shankar_Resume.pdf"
+        >
           click Here to download resume...
         </a>
       </div>

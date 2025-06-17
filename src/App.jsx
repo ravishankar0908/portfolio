@@ -1,19 +1,16 @@
 import "./App.css";
-import { AppRouter } from "./AppRouter";
+import { AppRouter } from "./appRouter";
 import Header from "./components/Header/Header";
 
-import { BrowserRouter, HashRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 function App() {
   return (
-    // <BrowserRouter>
     <HashRouter>
-      <div className="bg-black min-h-screen overflow-x-flow min-w-full mobile">
+      <div className="bg-black min-h-screen w-screen">
         <Header />
-
-        <AppRouter path={"C:\\Users\\RaviShankar\\portfolio>"} />
+        <AppRouter  />
       </div>
     </HashRouter>
-    // </BrowserRouter>
   );
 }
 
